@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+ display: flex;
+ flex-direction: column;
+ margin: 3em auto;
+ text-align: center;
+ justify-content: center;
+box-shadow: 0 4px 8px rgba(0,0,0,.35);
+max-width: 60%;
+}
+
+main *{
+    margin-bottom: .6em;
+}
+
+h1{
+    background-color: rgb(10, 10, 44);
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+span{
+    text-transform: uppercase;
+}
+
+input{
+    width: 80%;
+}
+
+.output-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.output::selection{
+    background-color: yellow;
+    color: #000;
+}
+
+.slider-output{
+    font-weight: bold;
+}
+
+p.output{
+background: #000;
+width: 70px;
+/* padding: 1em 2em; */
+padding: .7em ;
+font-weight: bold;
+color: white;
+border-radius: 50px;
+
+}
